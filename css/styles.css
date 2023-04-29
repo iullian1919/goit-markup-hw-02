@@ -1,21 +1,52 @@
+:root {
+  --blue-color: #2196f3;
+  --bkgrd-color: #2f303a;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --red-color: #ff0000;
+  --gray-color: #757575;
+  --dark-gray-color: #212121;
+  --light-gray-color: #f5f4fa;
+  --footer-link-color: #ffffff99;
+  --text-font-family: "Roboto", Verdana, Tahoma, sans-serif;
+}
+
+body {
+  font-family: var(--text-font-family);
+  color: var(--gray-color);
+}
+
 /* Header section */
+
 .web-logo {
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
-  line-height: 31px;
+  line-height: 1, 19;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #2196f3;
+  color: var(--blue-color);
 }
+
+.web-logo:hover,
+.web-logo:focus,
+.studio-logo:hover,
+.studio-logo:focus {
+  color: var(--red-color);
+}
+
 .studio-logo {
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
-  line-height: 31px;
+  line-height: 1, 19;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #000000;
+  color: var(--black-color);
+}
+
+ul {
+  list-style-type: none;
 }
 
 .global-header .main-navigation a,
@@ -23,121 +54,198 @@
   font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1, 14;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #000000;
+  color: var(--black-color);
 }
 
 .global-header .main-navigation a.active {
-  color: #2196f3;
+  color: var(--blue-color);
+}
+
+.global-header .main-navigation a.active:hover,
+.global-header .main-navigation a.active:focus {
+  color: var(--red-color);
+}
+
+.global-header a:hover,
+.global-header a:focus {
+  color: var(--red-color);
+}
+
+.global-header a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 
 .mailto {
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: #2196f3;
+  color: var(--blue-color);
 }
-
 .tel {
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: #757575;
+  color: var(--gray-color);
 }
 
 /* Main section*/
 
-#business-solution {
-  background: #2f303a;
+.business-solution {
+  background: var(--bkgrd-color);
   font-family: Roboto;
   font-size: 44px;
   font-weight: 900;
-  line-height: 60px;
+  line-height: 1, 36;
   letter-spacing: 0.06em;
   text-align: center;
-  color: #ffffff;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.btn-request {
+  background-color: var(--blue-color);
+  border: none;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 87;
+  color: var(--white-color);
+}
+
+.btn-request:hover,
+.btn-request:focus {
+  color: var(--red-color);
 }
 
 .skills {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
-  line-height: 16px;
+  line-height: 1, 14;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #212121;
+  color: var(--dark-gray-color);
 }
 
-.paragraph {
+.text {
   font-family: Roboto;
   font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1, 71;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #757575;
+  color: var(--gray-color);
 }
 
 .second-title {
   font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
-  line-height: 42px;
+  line-height: 1, 16;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #212121;
+  color: var(--dark-gray-color);
 }
 
-.global-address a {
-  background: #2f303a;
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #ffffff;
+/* Footer section */
+
+.global-footer {
+  background: var(--bkgrd-color);
 }
 
-.address {
-  background: #2f303a;
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #ffffff;
-}
-
-.projects > li > h5 {
-  font-family: Roboto;
-  font-size: 18px;
+.footer-logo {
+  font-family: Raleway;
+  font-size: 26px;
   font-weight: 700;
-  line-height: 36px;
-  letter-spacing: 0.06em;
-  text-align: left;
-  color: #212121;
-}
-
-.projects > li > span {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 30px;
+  line-height: 1, 19;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #757575;
+  color: var(--white-color);
 }
 
-ul {
-  list-style-type: none;
+.footer-logo:hover,
+.footer-logo:focus {
+  color: var(--red-color);
+}
+
+.global-footer p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+.global-footer a,
+.global-footer a:visited {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  color: var(--footer-link-color);
+}
+
+.global-footer a:hover,
+.global-footer a:focus {
+  color: var(--red-color);
+}
+
+/* Portofolio main section */
+
+.button-all {
+  background-color: var(--blue-color);
+  border: none;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  color: var(--white-color);
+}
+
+.button {
+  background-color: var(--light-gray-color);
+  font-family: "Roboto";
+  border: none;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  color: var(--dark-gray-color);
+}
+
+.buttons button:hover,
+.buttons button:focus {
+  color: var(--red-color);
+}
+
+.projects {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--dark-gray-color);
+}
+
+.our-solutions {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 87;
+  letter-spacing: 0.03em;
+  color: var(--gray-color);
 }
