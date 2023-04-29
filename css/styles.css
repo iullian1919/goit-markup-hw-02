@@ -51,7 +51,6 @@ ul {
 
 .global-header .main-navigation a,
 .global-header .main-navigation a:visited {
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
   line-height: 1, 14;
@@ -76,7 +75,6 @@ ul {
 
 .global-header a {
   text-decoration: none;
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
   line-height: 1, 14;
@@ -95,7 +93,6 @@ ul {
 
 .business-solution {
   background: var(--bkgrd-color);
-  font-family: Roboto;
   font-size: 44px;
   font-weight: 900;
   line-height: 1, 36;
@@ -109,8 +106,6 @@ ul {
   background-color: var(--blue-color);
   border: none;
   cursor: pointer;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1, 87;
@@ -123,7 +118,6 @@ ul {
 }
 
 .skills {
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
   line-height: 1, 14;
@@ -133,7 +127,6 @@ ul {
 }
 
 .text {
-  font-family: Roboto;
   font-size: 14px;
   line-height: 1, 71;
   letter-spacing: 0.03em;
@@ -142,7 +135,6 @@ ul {
 }
 
 .second-title {
-  font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
   line-height: 1, 16;
@@ -173,9 +165,7 @@ ul {
 }
 
 .global-footer p {
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.03em;
@@ -185,9 +175,7 @@ ul {
 .global-footer a,
 .global-footer a:visited {
   text-decoration: none;
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.03em;
@@ -205,8 +193,6 @@ ul {
   background-color: var(--blue-color);
   border: none;
   cursor: pointer;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 62;
@@ -215,10 +201,8 @@ ul {
 
 .button {
   background-color: var(--light-gray-color);
-  font-family: "Roboto";
   border: none;
   cursor: pointer;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 62;
@@ -231,8 +215,6 @@ ul {
 }
 
 .projects {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -241,9 +223,6 @@ ul {
 }
 
 .our-solutions {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1, 87;
   letter-spacing: 0.03em;
